@@ -36,14 +36,18 @@ $datax3=$row['data'];
  
 $sql= "SELECT batas from backset";
 $hasilx2=mysqli_query($conn,$sql);
-$row=mysqli_fetch_assoc($hasilx2);
-$alert = $row['batas'];
+if ($hasilx2 === false) {} else {
+  $row=mysqli_fetch_assoc($hasilx2);
+  $alert = $row['batas'];
+
+  $sqlx2="SELECT COUNT(kode) as data FROM barang where sisa <= '$alert' ";
+  $hasilx2=mysqli_query($conn,$sqlx2);
+  $row=mysqli_fetch_assoc($hasilx2);
+  $datax4=$row['data'];
+}
 
 
-$sqlx2="SELECT COUNT(kode) as data FROM barang where sisa <= '$alert' ";
-$hasilx2=mysqli_query($conn,$sqlx2);
-$row=mysqli_fetch_assoc($hasilx2);
-$datax4=$row['data'];
+
 
 
   
