@@ -23,7 +23,7 @@ $queryback="SELECT * FROM backset";
                     <!-- mini logo for sidebar mini 50x50 pixels -->
                     <span class="logo-mini"><b></b></span>
                     <!-- logo for regular state and mobile devices -->
-                 <span class="logo-lg"><b><?php echo $nama;?></b></span>
+                 <span class="logo-lg"><b><?php echo "Sistem Inventory";?></b></span>
                 </a>
                 <!-- Header Navbar: style can be found in header.less -->
                 <nav class="navbar navbar-static-top">
@@ -39,14 +39,14 @@ $queryback="SELECT * FROM backset";
                             <li class="dropdown user user-menu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <img src="<?php  echo $avatar; ?>" class="user-image" alt="User Image">
-                                    <span class="hidden-xs"> <?php  echo $nama; ?></span>
+                                    <span class="hidden-xs"> <?php  echo "user"; ?></span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <!-- User image -->
                                     <li class="user-header">
                                         <img src="<?php  echo $avatar; ?>" class="img-circle" alt="User Image">
                                         <p>
-                  <?php  echo $nama; ?> - <?php  echo $jabatan; ?></p>
+                  <?php  echo "user"; ?> - <?php  echo $jabatan; ?></p>
                                     </li>
                                     </li>
                                     <!-- Menu Footer-->

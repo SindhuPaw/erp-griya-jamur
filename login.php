@@ -21,7 +21,8 @@ timing();
   <html><br>
   <title>Login</title>
 
-<body style="background: #325d75">
+<body style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+url('./assets/background-1.jpeg'); background-size: cover;">
 
 
   <link rel="stylesheet" type="text/css" href="\dist\css\style.css">
@@ -33,12 +34,18 @@ timing();
   ?>
 
   <body class="hold-transition login-page">
+<div style="display: flex;
+    justify-content: center;">
+        <img src="./assets/logo-uny.png" alt="Logo UNY" style="max-width: 150px; 
+    height: auto;">
+    </div>
 
-    <center>
+
+    <!-- <center>
       <font color="white">
         <h1><br></h1>
       </font>
-    </center>
+    </center> -->
 
 
     <?php
@@ -92,15 +99,15 @@ timing();
 
 
     <div class="container">
-      <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+      <div id="loginbox" style="" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
 
         <?php error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
         ?>
 
         <div class="login-box">
           <div class="login-logo">
-            <a href="">
-              <font color="white"><b><?php echo $footer; ?></b><br>Warehouse Edition
+           <a href="">
+              <font color="white"><b>Sistem Inventory</b><br>Teknik Industri FT UNY
             </a></font>
           </div>
           <!-- /.login-logo -->
@@ -126,7 +133,7 @@ timing();
 
             <!-- /.social-auth-links -->
             <br>
-            <p class="login-box-msg">Copyright © 2024</p>
+            <p class="login-box-msg">Copyright © 2025</p>
 
           </div>
           <!-- /.login-box-body -->

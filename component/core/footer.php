@@ -16,9 +16,9 @@ include 'configuration/config_connect.php';
  ?>
  <footer class="main-footer">
                 <div class="pull-right hidden-xs">
-                    <b>Version</b> <?php echo $nama;?>
+                    <!-- <b>Version</b> <?php echo $nama;?> -->
                 </div>
-                <strong>Copyright ©<?= date("Y") ?> Jagodigital.</strong> All rights
-                reserved. <?php echo $footer;?> (jika mau mengganti footernya ada biaya copyright 50k)
+                <strong>Copyright © 2025</strong> All rights
+                reserved. 
 				</div>
             </footer>
